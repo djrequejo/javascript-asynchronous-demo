@@ -1,0 +1,25 @@
+{
+  "name": "demo-javascript-asynchronous",
+  "version": "1.0.0",
+  "description": "This is a demo project on using async with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djrequejo/demo-javascript-asynchronous.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "asynchronous",
+    "async"
+  ],
+  "author": "Diego Requejo Torero (https://github.com/djrequejo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djrequejo/demo-javascript-asynchronous/issues"
+  },
+  "homepage": "https://github.com/djrequejo/demo-javascript-asynchronous#readme"
+}
