@@ -4,7 +4,9 @@
   "description": "This is a demo project on using async with javascript",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/0-intro/2-xmlhttprequest.js"
+    "callback": "node src/0-intro/2-xmlhttprequest.js",
+    "get-products": "node src/1-promise/1-fetch.js",
+    "create-product": "node src/1-promise/2-fetch-post.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/djrequejo/demo-javascript-asynchronous#readme",
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
