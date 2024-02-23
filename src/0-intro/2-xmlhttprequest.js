@@ -1,9 +1,10 @@
-// 
-const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+// const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+import XMLHxmlttpRequest from 'xmlhttprequest';
+
 const API = 'https://api.escuelajs.co/api/v1';
 
 function fetchData(urlApi, callback) {
-  let xhttp = new XMLHttpRequest();
+  let xhttp = new XMLHxmlttpRequest.XMLHttpRequest();
 
   xhttp.open('GET', urlApi, true);
   xhttp.onreadystatechange = (event) => {
