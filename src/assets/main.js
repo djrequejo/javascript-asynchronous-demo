@@ -1,11 +1,11 @@
+import { X_RAPIDAPI_KEY } from './config.js';
+
 const content = null || document.getElementById('content');
-
-const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCdoadna9HFHsxXWhafhNvKw&part=snippet%2Cid&order=date&maxResults=9';
-
+const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCdoadna9HFHsxXWhafhNvKw&part=snippet%2Cid&order=date&maxResults=8';
 const options = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': `${process.env.X_RAPIDAPI_KEY}`,
+    'X-RapidAPI-Key': `${ X_RAPIDAPI_KEY }`,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };
@@ -35,7 +35,7 @@ async function fetchData(urlApi) {
           </div>
         </a>
       </div>
-    `).slice(0, 4).join('')}
+    `).slice(0, 8).join('')}
     `;
 
     content.innerHTML = view;

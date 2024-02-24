@@ -12,9 +12,9 @@ npm i xmlhttprequest
 npm i node-fetch
 ```
 ## 2) Configuration
-Don't forget configure your <code>.env</code> file with:
+Don't forget configure your <code>./src/assets/config.js</code> file with:
 ```bash
-X_RAPIDAPI_KEY="Your API Key"
+export const X_RAPIDAPI_KEY = "Your API Key";
 ```
 ## 3) Run Scripts
 There are some scripts in <code>package.json</code>.<br />
@@ -24,7 +24,7 @@ npm run callback
 npm run get-products
 npm run create-product
 ```
-## GitHub Pages
+## 4) GitHub Pages
 This project has integration with GitHub Pages. You can view on: https://djrequejo.github.io/demo-javascript-asynchronous.
 This landing shows the latest videos from the Amazon Web Services's channel.
 

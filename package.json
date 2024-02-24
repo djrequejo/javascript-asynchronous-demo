@@ -6,8 +6,7 @@
   "scripts": {
     "callback": "node src/0-intro/2-xmlhttprequest.js",
     "get-products": "node src/1-promise/1-fetch.js",
-    "create-product": "node src/1-promise/2-fetch-post.js",
-    "start": "node --env-file=./.env && npm run build && npm run start-server"
+    "create-product": "node src/1-promise/2-fetch-post.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +27,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
